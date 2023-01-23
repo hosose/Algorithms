@@ -12,7 +12,7 @@
 
 ### **목차**
 
-1. [Stabe 정렬 & In-place 정렬](https://github.com/hosose/Sorting-Algorithms/tree/main#%EA%B1%B0%ED%92%88-%EC%A0%95%EB%A0%ACbubble-sort:~:text=%EB%8C%80%ED%95%B4%EC%84%9C%EB%8F%84%20%EC%82%B4%ED%8E%B4%EB%B3%B4%EB%8F%84%EB%A1%9D%20%ED%95%A9%EC%8B%9C%EB%8B%A4.-,%EA%B1%B0%ED%92%88%20%EC%A0%95%EB%A0%AC(Bubble%20Sort),-%EB%B2%84%EB%B8%94%20%EC%A0%95%EB%A0%AC%EC%9D%80%20%EC%B2%AB%EB%B2%88%EC%A7%B8)
+1. [Stabe 정렬 & In-place 정렬](https://www.notion.so/Sorting-Algorithms-0572ac4ba5d542b59617575075c2d6cc)
 2. **[거품 정렬(Bubble Sort)](https://www.notion.so/Sorting-Algorithms-0572ac4ba5d542b59617575075c2d6cc)**
 3. **[선택 정렬(Selection Sort)](https://www.notion.so/Sorting-Algorithms-0572ac4ba5d542b59617575075c2d6cc)**
 4. **[삽입 정렬(Insertion Sort)](https://www.notion.so/Sorting-Algorithms-0572ac4ba5d542b59617575075c2d6cc)**
@@ -94,6 +94,52 @@ function bubbleSort(arr) {
 - **홀수 번째 반복**은 가장 작은 요소를 맨 앞으로, **짝수 번째 반복**은 가장 큰 요소를 맨 뒤로 정렬합니다. (또는 반대)
 - 시간복잡도는 **최선의 경우 O(n)**을 만족합니다!
 - 평균과 최악의 경우 여전히 O(n^2) 입니다..
+
+---
+
+## **선택 정렬(Selection Sort)**
+
+![https://blog.kakaocdn.net/dn/cqCvsg/btrAVs0WT4A/zuxAMlsX5t758nSa6MwvK1/img.gif](https://blog.kakaocdn.net/dn/cqCvsg/btrAVs0WT4A/zuxAMlsX5t758nSa6MwvK1/img.gif)
+
+선택 정렬은 앞쪽부터 정렬하는 방식입니다.
+
+- 주어진 배열에서 가장 작은 최소값을 찾고 배열의 맨 앞의 값과 위치를 바꾸면서 정렬합니다.
+- 맨 앞의 값을 제외한 배열로 다시 반복합니다.
+
+선택 정렬은 배열의 최솟값을 찾아 선택하여 정렬한다는 뜻에서 이름이 붙여졌습니다. 배열에서 최솟값을 찾아야 하기 때문에 **비교 횟수**는 많지만 실제로 값을 바꾸는 **교환 횟수**가 적다는 것이 특징입니다
+
+```jsx
+function selectionSort(arr) {
+  let indexMin;
+  for (let x = 0; x < arr.length - 1; x++) {
+    indexMin = x;
+    for (let y = x + 1; y < arr.length; y++) {
+      if (arr[y] < arr[indexMin]) {
+        indexMin = y;
+      }
+    }
+    [arr[x], arr[indexMin]] = [arr[indexMin], arr[x]];
+  }
+  return arr;
+}
+```
+
+### **⏱ 시간 복잡도**
+
+- (n-1) + (n-2) + .... + 2 + 1 = n(n-1) / 2 이므로 시간 복잡도는 **O(n^2)** 입니다.
+- **최선, 평균, 최악의 경우 모두** 시간복잡도가 O(n^2) 으로 동일합니다.
+
+### **👍 장점**
+
+- 버블 정렬과 마찬가지로 구현이 간단합니다.
+- 비교하는 횟수에 비해 교환하는 횟수가 적기 때문에, 많은 교환이 일어나야 하는 자료 상태에서 비교적 효율적입니다.
+- 정렬하고자 하는 배열 안에서 교환하는 방식이므로 **In-place** 정렬입니다.
+
+### **👎 단점**
+
+- 데이터를 하나씩 비교하기 때문에 시간복잡도가 O(n^2)으로, 비효율적입니다.
+- **Unstable** 정렬입니다. (구현하는 방식에 따라 달라질 수 있음)
+- 정렬된 상태에서 새로운 데이터가 추가되면 정렬 효율이 좋지 않습니다.
 
 ---
 
