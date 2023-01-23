@@ -12,12 +12,12 @@
 
 ### **목차**
 
-1. **[Stabe 정렬 & In-place 정렬](https://github.com/hosose/Sorting-Algorithms/blob/main/README.md#:~:text=%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0%20%EC%A0%84%EC%97%90%20%EB%A8%BC%EC%A0%80%2C%20%EC%A0%95%EB%A0%AC%EC%9D%98%C2%A0Stable%20%EC%A0%95%EB%A0%AC%EA%B3%BC%C2%A0In%2Dplace%20%EC%A0%95%EB%A0%AC%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EA%B3%A0%20%EA%B0%91%EC%8B%9C%EB%8B%A4!)**
-2. **[거품 정렬(Bubble Sort)](https://github.com/hosose/Sorting-Algorithms/blob/main/README.md#:~:text=%EB%8C%80%ED%95%B4%EC%84%9C%EB%8F%84%20%EC%82%B4%ED%8E%B4%EB%B3%B4%EB%8F%84%EB%A1%9D%20%ED%95%A9%EC%8B%9C%EB%8B%A4.-,%EA%B1%B0%ED%92%88%20%EC%A0%95%EB%A0%AC(Bubble%20Sort),-%EB%B2%84%EB%B8%94%20%EC%A0%95%EB%A0%AC%EC%9D%80%20%EC%B2%AB%EB%B2%88%EC%A7%B8)**
-3. **[선택 정렬(Selection Sort)](https://github.com/hosose/Sorting-Algorithms/blob/main/README.md#%EC%84%A0%ED%83%9D-%EC%A0%95%EB%A0%ACselection-sort:~:text=n%5E2)%20%EC%9E%85%EB%8B%88%EB%8B%A4..-,%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC,-(Selection%20Sort))**
-4. **[삽입 정렬(Insertion Sort)]()**
-5. **[퀵 정렬(Quick Sort)]()**
-6. **[병합 정렬(Merge Sort)]()**
+1. [Stabe 정렬 & In-place 정렬](https://www.notion.so/Sorting-Algorithms-0572ac4ba5d542b59617575075c2d6cc)
+2. **[거품 정렬(Bubble Sort)](https://www.notion.so/Sorting-Algorithms-0572ac4ba5d542b59617575075c2d6cc)**
+3. **[선택 정렬(Selection Sort)](https://www.notion.so/Sorting-Algorithms-0572ac4ba5d542b59617575075c2d6cc)**
+4. **[삽입 정렬(Insertion Sort)](https://www.notion.so/Sorting-Algorithms-0572ac4ba5d542b59617575075c2d6cc)**
+5. **[퀵 정렬(Quick Sort)](https://www.notion.so/Sorting-Algorithms-0572ac4ba5d542b59617575075c2d6cc)**
+6. **[병합 정렬(Merge Sort)](https://www.notion.so/Sorting-Algorithms-0572ac4ba5d542b59617575075c2d6cc)**
 
 ---
 
@@ -92,7 +92,7 @@ function bubbleSort(arr) {
 
 - 버블 정렬과는 달리 매 반복마다 배열의 순서를 바꾸어 정렬합니다.
 - **홀수 번째 반복**은 가장 작은 요소를 맨 앞으로, **짝수 번째 반복**은 가장 큰 요소를 맨 뒤로 정렬합니다. (또는 반대)
-- 시간복잡도는 **최선의 경우 O(n)** 을 만족합니다!
+- 시간복잡도는 **최선의 경우 O(n)**을 만족합니다!
 - 평균과 최악의 경우 여전히 O(n^2) 입니다..
 
 ---
