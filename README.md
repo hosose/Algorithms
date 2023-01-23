@@ -13,7 +13,7 @@
 ### **목차**
 
 1. [Stabe 정렬 & In-place 정렬](https://github.com/hosose/Sorting-Algorithms/blob/main/README.md#:~:text=%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0%20%EC%A0%84%EC%97%90%20%EB%A8%BC%EC%A0%80%2C%20%EC%A0%95%EB%A0%AC%EC%9D%98%C2%A0Stable%20%EC%A0%95%EB%A0%AC%EA%B3%BC%C2%A0In%2Dplace%20%EC%A0%95%EB%A0%AC%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EA%B3%A0%20%EA%B0%91%EC%8B%9C%EB%8B%A4!)
-2. **[거품 정렬(Bubble Sort)](https://github.com/hosose/Sorting-Algorithms/blob/main/README.md#:~:text=%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0%20%EC%A0%84%EC%97%90%20%EB%A8%BC%EC%A0%80%2C%20%EC%A0%95%EB%A0%AC%EC%9D%98%C2%A0Stable%20%EC%A0%95%EB%A0%AC%EA%B3%BC%C2%A0In%2Dplace%20%EC%A0%95%EB%A0%AC%EC%97%90%20%EB%8C%80%ED%95%B4%20%EC%95%8C%EA%B3%A0%20%EA%B0%91%EC%8B%9C%EB%8B%A4!)**
+2. **[거품 정렬(Bubble Sort)](https://github.com/hosose/Sorting-Algorithms/blob/main/README.md#%EA%B1%B0%ED%92%88-%EC%A0%95%EB%A0%ACbubble-sort:~:text=%EB%8C%80%ED%95%B4%EC%84%9C%EB%8F%84%20%EC%82%B4%ED%8E%B4%EB%B3%B4%EB%8F%84%EB%A1%9D%20%ED%95%A9%EC%8B%9C%EB%8B%A4.-,%EA%B1%B0%ED%92%88%20%EC%A0%95%EB%A0%AC(Bubble%20Sort),-%EB%B2%84%EB%B8%94%20%EC%A0%95%EB%A0%AC%EC%9D%80%20%EC%B2%AB%EB%B2%88%EC%A7%B8)**
 3. **[선택 정렬(Selection Sort)](https://www.notion.so/Sorting-Algorithms-0572ac4ba5d542b59617575075c2d6cc)**
 4. **[삽입 정렬(Insertion Sort)](https://www.notion.so/Sorting-Algorithms-0572ac4ba5d542b59617575075c2d6cc)**
 5. **[퀵 정렬(Quick Sort)](https://www.notion.so/Sorting-Algorithms-0572ac4ba5d542b59617575075c2d6cc)**
